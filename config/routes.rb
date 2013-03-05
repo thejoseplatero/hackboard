@@ -1,6 +1,8 @@
 Hackboard::Application.routes.draw do
 
   resources :posts
+  root to: 'posts#index' #Jose sets up the default page. Go to Public and delete index file (if there)
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
